@@ -11,6 +11,7 @@ import Intro from '../components/home/intro';
 import Demo from '../components/home/demo';
 import Features from '../components/home/features';
 import Customers from '../components/home/customers';
+import Newsletter from '../components/home/newsletter';
 import Learn from '../components/home/learn';
 import SocialMeta from '../components/social-meta';
 
@@ -39,6 +40,7 @@ export default () => {
         <Features />
         <Customers />
         <Learn />
+        <Newsletter />
         <Footer />
       </Page>
     </>
