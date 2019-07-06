@@ -82,12 +82,15 @@ class Newsletter extends React.PureComponent {
             max-width: 1024px;
           }
           .content h2 {
-            font-size: 1.8rem;
+            font-size: 2rem;
+            letter-spacing: -1px;
+            line-height: 1.2;
             text-align: left;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
           }
           .content h3 {
-            font-size: 1.2rem;
+            font-size: 1rem;
+            line-height: 1.8;
             text-align: left;
             font-weight: 400;
           }

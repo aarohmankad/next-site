@@ -226,7 +226,7 @@ class EmailForm extends React.Component {
           }
 
           .email :global(button) {
-            height: 40px;
+            height: 45px;
             margin: 10px 0;
             margin-bottom: 0;
             width: ${this.props.flex ? '175px' : '100%'};
