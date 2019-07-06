@@ -228,6 +228,7 @@ class EmailForm extends React.Component {
           .email :global(button) {
             height: 40px;
             margin: 10px 0;
+            margin-bottom: 0;
             width: ${this.props.flex ? '175px' : '100%'};
             background-color: #000;
             color: #fff;
@@ -370,11 +371,14 @@ class EmailForm extends React.Component {
           }
 
           .error-message {
+            position: absolute;
             color: red;
             text-align: center;
             font-size: 12px;
-            width: 100%;
+            width: 110%;
             margin: 0;
+            margin-left: -5%;
+            margin-top: 0.5rem;
           }
 
           .error-message span {
