@@ -38,7 +38,8 @@ const nextConfig = {
   target: 'serverless',
   pageExtensions: ['jsx', 'js', 'mdx'],
   experimental: {
-    flyingShuttle: true
+    flyingShuttle: true,
+    publicDirectory: true
   },
   env: {
     BACKEND_URL: process.env.BACKEND_URL || 'https://learn-server.nextjs.org',

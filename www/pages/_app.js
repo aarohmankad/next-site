@@ -56,6 +56,10 @@ export default class MyApp extends App {
           return {};
         }
       }
+
+      if (!isLearnPage) {
+        res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate');
+      }
     }
 
     const props = { pageProps: {} };

@@ -9,22 +9,22 @@ export const meta = {
     answers: [
       'Use page.amp.js',
       'Use page-amp.js',
-      "Wrap your page's component with `withAmp()`",
+      'Add `export const config = { amp: true }`',
       'Set AMP mode in your next.config'
     ],
-    correctAnswer: "Wrap your page's component with `withAmp()`"
+    correctAnswer: 'Add `export const config = { amp: true }`'
   }
 };
 
-Using `withAmp` you can create an AMP only page by supplying your page's component as the parameter to `withAmp`.
+You can create an AMP only page by exporting `amp: true` in the `config` object, here's how:
 
 ```jsx
 // pages/index.js
-import { withAmp } from 'next/amp';
+export const config = { amp: true };
 
-export default withAmp(function Index(props) {
+export default function Index(props) {
   return <p>Welcome to the AMP only Index page!!</p>;
-});
+}
 ```
 
 How do you make an AMP only page?

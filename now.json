@@ -10,6 +10,11 @@
       "headers": { "Location": "/learn/basics/getting-started" }
     },
     {
+      "src": "/learn/basics/server-side-support-for-clean-urls/?",
+      "status": 301,
+      "headers": { "Location": "/learn/basics/clean-urls-with-dynamic-routing" }
+    },
+    {
       "src": "/features/?",
       "status": 301,
       "headers": { "Location": "/features/static-exporting" }

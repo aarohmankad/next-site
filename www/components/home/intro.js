@@ -56,7 +56,7 @@ class LogoContainer extends React.PureComponent {
           </a>
         </Link>
         <a
-          href="/blog/next-8"
+          href="/blog/next-9"
           className="version no-tap-highlight no-drag"
           style={{
             opacity: Math.max(1 - (scroll * 3) / LOGO_TOP, 0),
@@ -66,12 +66,12 @@ class LogoContainer extends React.PureComponent {
           <Popover
             content={
               <span className="f5 fw4 tip">
-                What’s new in <strong className="fw7">8</strong>?
+                What’s new in <strong className="fw7">9</strong>?
               </span>
             }
             top={65}
           >
-            8
+            9
           </Popover>
         </a>
         <style jsx>{`
